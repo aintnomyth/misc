@@ -1,0 +1,932 @@
+{
+   "path": [
+      {
+         "zone": "durotar",
+         "experience": 6.2,
+         "waypoints": [
+            {
+               "coords": { "x": 43, "y": 69 },
+               "align": "bottom",
+               "header": "Starter Zone",
+               "starts": ["report to sen'jin village"],
+               "special": ["Female troll/orc can repair at Sen'Jin weaponsmith without entering building", "grind on everything as you travel","be level 6 before leaving","go into back hall of cave to die"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 45, "y": 52 },
+               "align": "right",
+               "header": "GY jump from back of cave",
+               "type": "travel"
+            },                  
+            {
+               "coords": { "x": 54, "y": 45 },
+               "align": "right",
+               "header": "Razor Hill Spirit Rez",
+               "type": "travel"
+            },      
+            {
+               "coords": { "x": 52, "y": 42 },
+               "align": "right",
+               "header": "razor hill",
+               "starts": ["vanquish the betrayers","encroachment","break a few eggs"],
+               "special": ["set hearthstone","buy a level 3 weapon"],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 49, "y": 40 },
+               "align": "top",
+               "header": "furl scornbrow",
+               "starts": ["carry your weight"],
+               "type": "quest"
+            }
+         ]
+      },
+
+      {
+         "zone": "durotar",
+         "experience": 7.1,
+         "waypoints": [
+            {
+               "coords": { "x": 47, "y": 49 },
+               "align": "bottom",
+               "header": "razormane grounds",
+               "objectives": ["encroachment"],
+               "special": ["quillboars & scouts", "clear the camp, loot the chest"],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 43, "y": 40 },
+               "header": "razormane grounds",
+               "objectives": ["encroachment"],
+               "special": ["battleguards & dustrunners", "grind as you travel here"],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 43, "y": 30 },
+               "align": "top",
+               "header": "misha tor'kren",
+               "starts": ["lost but not forgotten"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 46, "y": 23 },
+               "align": "right",
+               "header": "rezlak",
+               "starts": ["winds in the desert"],
+               "special": ["grind as you travel here"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 49, "y": 23 },
+               "align": "right",
+               "header": "razorwind canyon",
+               "objectives": ["winds in the desert"],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 50, "y": 28 },
+               "align": "right",
+               "header": "razorwind canyon",
+               "objectives": ["winds in the desert"],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 48, "y": 28 },
+               "align": "right",
+               "header": "razorwind canyon",
+               "objectives": ["winds in the desert"],
+               "special": ["If this is overcamped just grind back south and finish it later"],
+               "type": "objective"
+            }                                               
+         ]
+      },
+
+
+      {
+         "zone": "durotar",
+         "experience": 8.1,
+         "waypoints": [      
+            {
+               "coords": { "x": 46, "y": 23 },
+               "align": "right",
+               "header": "rezlak",
+               "ends": ["winds in the desert"],
+               "starts": ["securing the lines"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 46, "y": 30 },
+               "align": "right",
+               "header": "Grind back south",
+               "special": ["If you're already level 8 you can hearth to Razor Hill"],
+               "type": "travel"
+            },
+            {
+               "coords": { "x": 52, "y": 42 },
+               "align": "right",
+               "header": "razor hill",
+               "ends": ["encroachment"],
+               "special": ["train level 8 if you can, Mages wait till later", "buy first aid"],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 58, "y": 57 },
+               "align": "right",
+               "header": "tiragarde keep",
+               "objectives": ["vanquish the betrayers", "carry your weight"],
+               "special": ["Loot key from Benedict, run up the tower to open chest for Aged Envelope", "use Aged Envelope to start The Admiral's Orders", "Grind to level 8 if you're not there yet"],
+               "type": "objective"
+            }                       
+                                            
+         ]
+      },
+
+
+      {
+         "zone": "durotar",
+         "experience": 8.1,
+         "waypoints": [      
+            {
+               "coords": { "x": 49, "y": 40 },
+               "align": "top",
+               "header": "furl scornbrow",
+               "ends": ["carry your weight"],
+               "type": "quest"
+            },            
+            {
+               "coords": { "x": 52, "y": 42 },
+               "align": "top",
+               "header": "razor hill",
+               "ends": ["The Admiral's Orders", "vanquish the betrayers"],
+               "starts": ["The Admiral's Orders P2","from the wreckage"],               
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 62, "y": 42 },
+               "align": "right",
+               "header": "boat",
+               "objectives": ["from the wreckage"],
+               "special": ["the sunken boat should have 3 Gnomish Tools","Look for tools in other sunken boats if needed"],
+               "type": "objective"
+            } ,
+            {
+               "coords": { "x": 60, "y": 47 },
+               "align": "right",
+               "header": "Grind along the coast",
+               "type": "travel"
+            },                
+            {
+               "coords": { "x": 61, "y": 60 },
+               "align": "right",
+               "header": "Graveyard Jump",               
+               "special": ["Die outside the keep on the Southeast side to GY jump"],
+               "type": "hub"
+            } ,        
+            {
+               "coords": { "x": 57, "y": 72 },
+               "align": "right",
+               "header": "Sen'Jin Spirit Healer",               
+               "special": ["Spirit Rez", "Repair at the weaponsmith", "Buy as many bags as you can afford"],
+               "type": "hub"
+            } ,                 
+            {
+               "coords": { "x": 55, "y": 74 },
+               "align": "top",
+               "header": "sen'jin village",
+               "starts": ["Practical Prey", "A Solvent Spirit", "Minshina's Skull", "Zalazane", "Report to Ogril", "Thwarting Kolgar Aggression"],
+               "special": ["repair gear"],               
+               "type": "hub"
+            } ,
+            {
+               "coords": { "x": 49, "y": 77 },
+               "align": "left",
+               "header": "kolkar",
+               "objectives": ["Thwarting Kolkar Aggression"],
+               "special": [ "South First", "North Second", "West Last - sit on the fire to GY jump to Sen'Jin"],
+               "type": "objective"
+            }                      
+                                            
+         ]
+      },
+
+
+
+      {
+         "zone": "durotar",
+         "experience": 8.1,
+         "waypoints": [               
+            {
+               "coords": { "x": 57, "y": 72 },
+               "align": "right",
+               "header": "Sen'Jin Spirit Healer",               
+               "special": ["Spirit Rez"],
+               "type": "hub"
+            } ,                 
+            {
+               "coords": { "x": 60, "y": 70 },
+               "align": "left",
+               "header": "Start a Solvent Spirit",
+               "objectives": ["A Solvent Spirit"],
+               "special": [ "Grind down the coast"],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 56, "y": 82 },
+               "align": "left",
+               "header": "Start a Solvent Spirit",
+               "objectives": ["A Solvent Spirit"],
+               "special": [ "Work on this as you travel"],
+               "type": "objective"
+            } ,
+
+            {
+               "coords": { "x": 59, "y": 83 },
+               "align": "right",
+               "header": "Echo Isles",               
+               "objectives": ["Practical Prey", "A Solvent Spirit", "Break a few eggs"],
+               "special": ["Kill Makrura and Crawlers as you go"],               
+               "type": "objective"
+            } ,       
+            {
+               "coords": { "x": 63, "y": 94 },
+               "align": "right",
+               "header": "Echo Isles",               
+               "objectives": ["Practical Prey", "A Solvent Spirit", "Break a few eggs"],
+               "special": ["Kill Makrura and Crawlers as you go"],               
+               "type": "objective"
+            } ,                  
+            {
+               "coords": { "x": 68, "y": 86 },
+               "align": "right",
+               "header": "Echo Isles",               
+               "objectives": ["Practical Prey", "A Solvent Spirit", "Minshina's Skull", "Zalazane", "Break a few eggs"],
+               "special": ["Kill Makrura and Crawlers as you go"],               
+               "type": "objective"
+            } ,
+            {
+               "coords": { "x": 67, "y": 83 },
+               "align": "right",
+               "header": "Graveyard Jump",               
+               "special": ["Die to GY jump"],
+               "type": "hub"
+            }                                                          
+                                            
+         ]
+      },
+
+
+      {
+         "zone": "durotar",
+         "experience": 10,
+         "waypoints": [                  
+           {
+               "coords": { "x": 57, "y": 72 },
+               "align": "right",
+               "header": "Sen'Jin Spirit Healer",               
+               "special": ["Spirit Rez"],
+               "type": "hub"
+            } ,    
+            {
+               "coords": { "x": 56, "y": 73 },
+               "align": "top",
+               "header": "sen'jin graveyard",        
+               "ends": ["Practical Prey", "A Solvent Spirit", "Minshina's Skull", "Zalazane", "Thwarting Kolgar Aggression"],                              
+               "special": ["Grind to Razor Hill", "Don't hearth"], 
+               "type": "hub"
+            } ,
+            {
+               "coords": { "x": 52, "y": 45 },
+               "align": "top",
+               "header": "razor hill",
+               "ends": ["Report to Ogril", "from the wreckage...", "break a few eggs"],
+               "starts": ["Dark Storms"],
+               "special": [ "Hunters do your level 10 quest and tame the 3 animals - we'll go to Org in a bit"],
+               "type": "hub"
+            } ,
+            {
+               "coords": { "x": 49, "y": 40 },
+               "header": "furl scornbrow",
+               "ends": ["carry your weight"],
+               "special": ["Grind North and complete Winds in the Desert before the next step", "Optional Warriors Step into the Barrens to get the Warrior quest Path of Defense then grind through Thunder Ridge","Warriors can wait until level 14 for this though"],               
+               "type": "quest"
+            } ,        
+            { 
+               "coords": { "x": 42, "y": 26 },
+               "objectives": ["dark storms"],
+               "header": "cultist camp",
+               "special": [ "jump down just north of the hut", "use the lifestealing skull", "die & take ress sickness after", "try once but skip it if you can't solo it"],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 47, "y": 18 },
+               "align": "right",
+               "header": "durotar spirit healer",
+               "type": "travel"
+            },
+            {
+               "coords": { "x": 42, "y": 19 },
+               "align": "left",
+               "header": "rhinag",
+               "starts": ["need for a cure"],
+               "special": ["don't waste time or logout until you get to Org", "Hearth to Razor Hill if available"],
+               "type": "quest"
+            } ,
+            {
+               "coords": { "x": 52, "y": 41 },
+               "align": "left",
+               "header": "Razor Hill",
+               "ends": ["Dark Storms"],
+               "starts": ["Margoz"],
+               "type": "quest"
+            } ,     
+            {
+               "coords": { "x": 56, "y": 20 },
+               "align": "right",
+               "header": "margoz",
+               "ends": ["margoz"],
+               "starts": ["skull rock"],
+               "special": [ "grind on the way here",  "Hunter's train a Venomtail Scorpid pet"],
+               "type": "quest"
+            }                                       
+                                            
+         ]
+      } ,
+
+
+
+
+      {
+         "zone": "orgrimmar",
+         "experience": 10.69,
+         "waypoints": [
+            {
+               "coords": { "x": 49, "y": 92 },
+               "align": "right",
+               "header": "orgrimmar gates",
+               "special": ["Hunters turn in your quest first, then visit Thrall", "Get weapon training if needed, before visiting Thrall"], 
+               "type": "travel"
+            },
+            {
+               "coords": { "x": 36, "y": 37 },
+               "header": "grommash hold",
+               "starts": ["hidden enemies P1"],
+               "ends": ["The Admiral's Orders"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 47, "y": 53 },
+               "align": "right",
+               "header": "cleft of shadow",
+               "starts": ["creature of the void"],
+               "ends": ["finding the antidote"],
+               "special": [ "drop need for a cure" ],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 49, "y": 51 },
+               "align": "right",
+               "header": "zone into Ragefire and suicide to rez in Durotar",
+               "type": "travel"
+            }         
+         ]
+      } ,     
+
+
+
+      {
+         "zone": "durotar",
+         "experience": 10.7,
+         "waypoints": [                  
+            {
+               "coords": { "x": 47, "y": 18 },
+               "align": "right",
+               "header": "durotar spirit healer - spirit rez",
+               "type": "travel"
+            },
+
+            {
+               "coords": { "x": 50, "y": 14 },
+               "align": "right",
+               "header": "To Undercity",
+               "special": [ "grind around the tower until the Undercity Zeppelin arrives", "Grind Scorpids, collect at least 2-3 Venomtails for antidote", "Make bandages on the boat"],
+               "type": "quest"
+            }  
+                                            
+         ]
+      } ,
+
+
+  {
+         "zone": "tirisfal",
+         "experience": 10.80,
+         "waypoints": [       
+
+            {
+               "coords": { "x": 32, "y": 42 },
+               "align": "top",
+               "header": "Jump off Zeppelin",
+               "special": ["Jump off the Zeppelin into the water here", "Watch for Murloc aggro =)"],
+               "type": "hub"
+            },            
+            {
+               "coords": { "x": 41, "y": 54 },
+               "align": "top",
+               "header": "deathguard simmer",
+               "starts": ["fields of grief P1"],
+               "type": "quest"
+            },       
+            {
+               "coords": { "x": 36, "y": 51 },
+               "align": "bottom",
+               "header": "solliden farmstead",
+               "objectives": ["fields of grief P1"],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 51, "y": 57 },
+               "align": "top",
+               "header": "gordo",
+               "starts": ["gordo's task"],
+               "special": ["Grind towards Brill until you find Gordo"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 53, "y": 54 },
+               "align": "bottom",
+               "header": "Traveling",
+               "objectives": ["Gordo's Task"],               
+               "special": ["Should be able to finish Gloom Weed before Brill"],
+               "type": "objective"           
+            },
+            {
+               "coords": { "x": 58, "y": 52 },
+               "align": "top",
+               "header": "Deathguard Dillinger",
+               "starts": [ "a putrid task"],
+               "special": ["Do this now before going into town","Finish Gloom Weed"],
+               "type": "hub"
+            },
+            {
+               "coords": { "x": 55, "y": 51 },
+               "align": "bottom",
+               "header": "Do",
+               "objectives": ["A Putrid Task", "Gordo's Task"],
+               "type": "objective"           
+            }            
+
+         ]
+      } ,
+
+
+
+  {
+         "zone": "tirisfal",
+         "experience": 11.50,
+         "waypoints": [       
+
+            {
+               "coords": { "x": 57, "y": 52 },
+               "align": "top",
+               "header": "Deathguard Dillinger",
+               "ends": [ "a putrid task"],
+               "starts": [ "The Mills Overrun"],
+               "type": "hub"
+            },
+
+            {
+               "coords": { "x": 58, "y": 50 },
+               "align": "top",         
+               "header": "Junior Apothecary Holland",
+               "ends": [ "Gordo's Task"],
+               "starts": [ "Doom Weed"],               
+               "type": "hub"
+            },            
+
+            {
+               "coords": { "x": 60, "y": 52 },
+               "align": "top",
+               "header": "brill",
+               "ends": [ "Fields of Grief P1"],
+               "starts": [ "Fields of Grief P2", "deaths in the family", "the haunted mills", "the chill of death", "at war with the scarlet crusade P1", "wanted: maggot eye", "graverobbers", "a new plague P1"],
+               "special": ["Deliver the Tainted pumpkin in Inn Cellar", "Get Chill of Death on 2nd floor of the Inn", "learn the herbalism profession", "DO NOT set hearthstone"],
+               "type": "hub"
+            },                        
+            {
+               "coords": { "x": 51, "y": 55 },
+               "align": "top",
+               "header": "Grind",
+               "special": ["Kill wolves and bats as you travel"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 32, "y": 48 },
+               "align": "bottom",
+               "header": "scarlet tower",
+               "objectives": ["at war with the scarlet crusade P1"],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 44, "y": 34 },
+               "header": "Finish",
+               "objectives": ["the chill of death", "a new plague P1"],
+               "special": ["Make sure they are complete before moving on"],
+               "type": "objective"
+           }                                   
+         ]
+      } ,
+
+
+ 
+    {
+         "zone": "tirisfal",
+         "experience": 11.5,
+         "waypoints": [     
+            {
+               "coords": { "x": 44, "y": 34 },
+               "header": "thurman agamand",
+               "objectives": ["the haunted mills", "the mills overrun","death's in the family"],
+               "type": "objective"
+            },     
+            {
+               "coords": { "x": 47, "y": 29 },
+               "align": "top",
+               "header": "gregor agamand",
+               "objectives": ["the haunted mills", "the mills overrun","death's in the family"],
+               "type": "objective"
+            },          
+            {
+               "coords": { "x": 50, "y": 36 },
+               "align": "right",
+               "header": "nissa agamand",
+               "objectives": ["the haunted mills", "the mills overrun","death's in the family"],
+               "type": "objective"
+            },       
+            {
+               "coords": { "x": 47, "y": 41 },
+               "align": "bottom",
+               "header": "devlin agamand",
+               "objectives": ["the haunted mills", "the mills overrun","death's in the family"],               
+            "special": ["Kill Cracked Skull Soldiers  and Bonecasters for A Letter Undelivered"],
+            "type": "objective"           
+            },
+            {
+               "coords": { "x": 47, "y": 36 },
+               "align": "bottom",
+               "header": "Cracked Skull",
+               "starts": ["A Letter Undelivered"],               
+               "special": ["Kill Cracked Skull Soldiers for A Letter Undelivered"],
+               "type": "hub"           
+            },       
+            {
+               "coords": { "x": 57, "y": 50 },
+               "align": "bottom",
+               "header": "GY Jump",
+               "special": ["Die and rez in the graveyard","Or just grind back to Brill"],
+               "type": "hub"
+            }
+         ]
+      },
+
+
+
+
+
+   {
+         "zone": "tirisfal",
+         "experience": 12.5,
+         "waypoints": [     
+       
+            {
+               "coords": { "x": 57, "y": 50 },
+               "align": "bottom",
+               "header": "GY Jump",          
+            "type": "hub"
+         },
+
+            {
+               "coords": { "x": 60, "y": 52 },
+               "align": "top",
+               "header": "brill",               
+               "ends": [  "deaths in the family", "the haunted mills", "the mills overrun", "the chill of death", "at war with the scarlet crusade - p1"],
+               "starts": [ "proof of demise", "at war with the scarlet crusade - p2", "a new plague - p2", "Speak with Sevren"],
+               "special": [ "Buy Coarse Thread from Trade Vendor for Chill of Death"],
+               "type": "hub"
+            } ,
+            {
+               "coords": { "x": 51, "y": 67 },
+               "align": "bottom",
+               "header": "crusader tower",
+               "objectives": ["at war with the scarlet crusade P2", "proof of demise"],               
+               "special": ["start collecting rings, no need to finish yet", "Not worthwhile to GY jump here, the nearest GY is Undercity"],
+               "type": "objective"           
+            } ,
+
+            {
+               "coords": { "x": 57, "y": 41},
+               "header": "placeholder",
+               "objectives": ["graverobbers", "Doom Weed"],
+               "special": ["Finish Doom Weed before going North","Some mobs might be gray, try to avoid those"],
+               "type": "objective"
+            },     
+         
+            {
+               "coords": { "x": 59, "y": 36 },
+               "header": "placeholder",
+               "objectives": ["graverobbers"],
+               "type": "objective"
+            }, 
+         
+            {
+               "coords": { "x": 59, "y": 30 },
+               "header": "placeholder",
+               "objectives": ["wanted: maggot eye"],
+               "type": "objective"
+            }, 
+           {
+               "coords": { "x": 61, "y": 28 },
+               "header": "murlocs",
+               "objectives":[ "a new plague - p2"],
+               "special": ["Get 5 Vile Fin Scale"],
+               "type": "objective"
+            }, 
+           {
+               "coords": { "x": 64, "y": 28 },
+               "header": "murlocs",
+               "objectives":[ "a new plague - p2"],       
+               "special": ["Die and rez in the graveyard"], 
+               "type": "objective"
+            }       
+        
+       ]
+      },                
+
+
+
+
+      {
+         "zone": "tirisfal",
+         "experience": 13.5,
+         "waypoints": [     
+       
+            {
+               "coords": { "x": 57, "y": 50 },
+               "align": "bottom",
+               "header": "GY Jump",          
+               "special": ["Repair at Armor Vendor"], 
+               "type": "hub"
+            },
+
+            {
+               "coords": { "x": 60, "y": 52 },
+               "align": "top",
+               "header": "brill",               
+               "ends": [ "at war with the scarlet crusade P2", "doom weed",  "wanted: maggot eye", "graverobbers", "a new plague - p2"],
+               "starts": ["at war with the scarlet crusade P3", "forsaken duties", "a new plague - P3"],
+               "type": "hub"
+            },   
+            {
+               "coords": { "x": 65, "y": 60 },
+               "align": "bottom",
+               "header": "deathguard linnea",
+               "ends": ["forsaken duties"],
+               "starts": ["return to the magistrate", "rear guard patrol"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 76, "y": 61 },
+               "align": "bottom",
+               "header": "balnir farmstead",
+               "objectives": ["rear guard patrol"],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 79, "y": 56 },
+               "align": "top",
+               "header": "scarlet tower",
+               "objectives": ["at war with the scarlet crusade - p3", "proof of demise"],
+               "special": ["Be sure to finish Proof of Demise"],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 86, "y": 53 },
+               "align": "top",
+               "header": "venomweb vale",
+               "objectives": ["a new plague - p3"],
+               "special": ["Hunters tame a spider for Bite Rank 2"],
+               "type": "objective"
+            }            
+        
+       ]
+      }  ,
+
+
+
+      {
+         "zone": "tirisfal",
+         "experience": 13,
+         "waypoints": [     
+             {
+               "coords": { "x": 86, "y": 53 },
+               "align": "right",
+               "header": "Grind back",
+               "special": ["Grind back the way you came", "Don't GY jump or you'll go to the wrong GY"],
+               "type": "travel"
+            },  
+
+            {
+               "coords": { "x": 65, "y": 60 },
+               "align": "bottom",
+               "header": "deathguard linnea",
+               "ends": [ "rear guard patrol"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 60, "y": 52 },
+               "align": "top",
+               "header": "brill",               
+               "ends": ["proof of demise", "at war with the scarlet crusade P3", "forsaken duties", "a new plague - P3", "return to the magistrate"],
+               "starts": ["A New Plague P4"],
+               "special": ["Give the drink to the Dwarf in the cellar", "Go into Undercity for Sword training if you want","Level First Aid as far as possible", "Get on the Zeppelin to Durotar"],
+               "type": "hub"
+            }            
+        
+       ]
+      } ,                     
+
+      {
+         "zone": "durotar",
+         "experience": 10.7,
+         "waypoints": [                  
+            {
+               "coords": { "x": 58, "y": 15 },
+               "align": "right",
+               "header": "Jump here",
+               "special": [ "Land in the water here", "Kill Scorpid as you grind towards cave"],
+               "type": "travel"
+            },
+            {
+               "coords": { "x": 55, "y": 11 },
+               "align": "right",
+               "header": "Cave",         
+               "objectives": ["Skull Rock", "Hidden Enemies", "creature of the void"],
+               "special": ["Warlocks do creature of the void", "If you're confident, kill Gazz'uz for Eye of Burning Shadow"],
+               "type": "hub"
+            } ,
+            {
+               "coords": { "x": 53, "y": 15 },
+               "align": "right",
+               "header": "Cave",         
+               "objectives": ["Finding the Antidote"],
+               "special": ["Be sure this is finished before moving on"],
+               "type": "hub"
+            } ,
+            {
+               "coords": { "x": 56, "y": 20 },
+               "align": "right",
+               "header": "margoz",
+               "ends": ["skull rock"],
+               "starts": ["neeru fireblade"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 55, "y": 30 },
+               "align": "top",
+               "header": "climb up and jump into the ravine",
+               "type": "travel"
+            } ,              
+            {
+               "coords": { "x": 53, "y": 24 },
+               "align": "bottom",
+               "header": "drygulch ravine",
+               "objectives": ["securing the lines"],
+               "special": ["jump into the ravine", "die & take ress sickness when you're done"],
+               "type": "objective"
+            },
+            {
+               "coords": { "x": 47, "y": 18 },
+               "align": "top",
+               "header": "durotar spirit healer",
+               "type": "travel"
+            } ,
+            {
+               "coords": { "x": 46, "y": 23 },
+               "header": "rezlak",
+               "ends": ["securing the lines"],
+               "type": "quest"
+            },
+            {
+               "coords": { "x": 46, "y": 12 },
+               "header": "orgrimmar gates",
+               "type": "travel"
+            }                                                     
+                                            
+         ]
+      } ,
+
+
+
+
+
+     {
+         "zone": "orgrimmar",
+         "experience": 12.0,
+         "waypoints": [
+            {
+               "coords": { "x": 49, "y": 92 },
+               "align": "right",
+               "header": "orgrimmar gates",
+               "type": "travel"
+            },
+            {
+               "coords": { "x": 35, "y": 37 },
+               "header": "grommash hold",
+               "starts": ["hidden enemies P2"],
+               "ends": ["hidden enemies P1"],
+               "type": "quest"
+            }  , 
+            {
+               "coords": { "x": 47, "y": 53 },
+               "align": "right",
+               "header": "cleft of shadow",
+               "ends": ["finding the antidote", "neeru fireblade", "burning shadows", "creature of the void"],
+               "special": ["tell Neeru to speak freely to compelte Hidden Enemies", "turn in Creature of the void if you're a warlock", "finish warlock quest for voidwalker"],
+               "starts": ["ak'zeloth", "the binding"],
+               "objectives": ["hidden enemies P2"],
+               "type": "quest"
+            },            
+            {
+               "coords": { "x": 37, "y": 37 },
+               "header": "grommash hold",
+               "ends": ["hidden enemies P2"],
+               "starts": ["Spirits of Stonetalon"],
+               "special": ["hearth to Razor Hill"],
+               "type": "quest"
+            }                 
+
+         ]
+      } ,
+
+
+
+
+      {
+         "zone": "durotar",
+         "experience": 14.5,
+         "waypoints": [
+
+            {
+               "coords": { "x": 52, "y": 42 },
+               "align": "top",
+               "header": "razor hill",
+               "special": ["train level 14 skills", "resupply", "get journeyman first aid if needed"],
+               "type": "hub"
+            } ,
+            {
+               "coords": { "x": 36, "y": 43 },
+               "align": "bottom",
+               "header": "Lost but not forgotten",
+               "objectives": ["lost but not forgotten"],               
+               "special": ["grind up the river", "Warriors go into the Barrens to get Path of Defense quest"],
+               "type": "quest"
+            } ,  
+            {
+               "coords": { "x": 37, "y": 19 },
+               "header": "orgrimmar gates",
+               "special": ["find Krol's Amulet?", "Abandon the quest if not and skip the turn-in step"],
+               "type": "travel"
+            },
+            {
+               "coords": { "x": 42, "y": 19 },
+               "align": "left",
+               "header": "rhinag",
+               "ends": ["need for a cure"],
+               "special": ["975xp at level 14 so you decide"],
+               "type": "quest"
+            } , 
+            {
+               "coords": { "x": 43, "y": 30 },
+               "align": "bottom",
+               "header": "misha tor'kren",
+               "ends": ["lost but not forgotten"],
+               "special": ["875xp at level 14 so you decide", "Warriors do your quest in Thunder Ridge"],
+               "type": "quest"
+            } ,           
+            {
+               "coords": { "x": 33, "y": 43 },
+               "align": "bottom",
+               "header": "far watch post",
+               "ends": ["ak'zeloth", "conscript of the horde", "the demon seed"],
+               "starts": ["crossroads conscription"],
+               "special": ["pickup the demon seed crystal thing"],
+               "type": "quest"
+            }   
+                                                      
+         ]
+      }       
+
+
+
+
+
+   ]
+}
